@@ -14,8 +14,9 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
+    fileName = 'README.md'
     fs.writeFileSync;
-}
+} 
 
 // TODO: Create a function to initialize app
 function init() {}
