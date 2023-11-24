@@ -9,7 +9,7 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'Enter the project title',
+        message: 'Enter the project title:',
     },
     {
         type: 'input',
@@ -30,7 +30,7 @@ const questions = [
         type: 'checkbox',
         name: 'license',
         message: 'Select the license for this project',
-        options: ['MIT', '0BSD', 'none']
+        choices: ['MIT', '0BSD', 'none']
     },
     {
         type: 'input',
@@ -40,17 +40,12 @@ const questions = [
     {
         type: 'input',
         name: 'tests',
-        message: 'Enter any required tests',
-    },
-    {
-        type: 'input',
-        name: 'tests',
-        message: 'Enter any required tests',
+        message: 'Enter any required tests:',
     },
     {
         type: 'input',
         name: 'github',
-        message: 'Enter your GitHub user name:',
+        message: 'Enter your GitHub username:',
     },
     {
         type: 'input',
@@ -67,10 +62,10 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.createPromptModule(questions)
-    .then((response) => {
+    inquirer.prompt(questions)
+    .then((data) => {
         console.log('Creating README.md');
-        writeToFile('.README.md', generateMarkdown({response}));
+        writeToFile('README.md', generateMarkdown(data));
     });
 }
 
