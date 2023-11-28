@@ -14,7 +14,7 @@ Node.js must be installed and the project must be ran wiht an npm installation o
 ## Usage
 JavaScript, Node.js, Markdown, JSON.
 ## License 
-      [MIT](https://opensource.org/licenses/MIT)
+      [[MIT](https://opensource.org/licenses/MIT)]
 ## Contributors
 SanyamSamS
 ## Tests
