@@ -23,7 +23,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license !== 'none') {
       return `## License 
-      [${license}](${renderLicenseLink(license)})`;
+  [${license}](${renderLicenseLink(license)})`;
   } else {
       return '';
   }
