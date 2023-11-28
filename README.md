@@ -1,7 +1,7 @@
-# Professional README generator
+# Professional-README-Generator
   [![License](https://img.shields.io/badge/License-MIT-blue)](#License)
 ## Description
-node.js application that creates a README markdown file 
+A node.js application that streamlines README creation by prompting users for project details. It dynamically creates a professional README markdown file, including a standardized structure with a table of contents and sections such as Description, Installation, Usagae, License, Contributors, Tests, and Questions. 
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -10,16 +10,18 @@ node.js application that creates a README markdown file
 - [Tests](#tests)
 - [Questions](#questions)
 ## Installation 
-Must npm install inquirer
+Node.js must be installed and the project must be ran wiht an npm installation of inquirer.
 ## Usage
-NO
+JavaScript, Node.js, Markdown, JSON.
 ## License 
-      MIT(https://opensource.org/licenses/MIT)
+      [MIT](https://opensource.org/licenses/MIT)
 ## Contributors
 SanyamSamS
 ## Tests
-No 
+No tests required
 ## Questions 
 If you have any questions get in touch:
-GitHub: [SanyamSamS](github.com/SanyamSamS)
-Email: sanyam.edu@gmail.com
+#### GitHub: 
+[SanyamSamS](https://github.com/SanyamSamS)
+#### Email: 
+sanyam.edu@gmail.com
