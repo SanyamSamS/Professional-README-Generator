@@ -1,6 +1,7 @@
-# Professional README Generator
+# Professional README generator
+  [![License](https://img.shields.io/badge/License-MIT-blue)](#License)
 ## Description
-A node.js application that can create a README markdown file only using prompts within the terminal 
+node.js application that creates a README markdown file 
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -11,13 +12,13 @@ A node.js application that can create a README markdown file only using prompts 
 ## Installation 
 Must npm install inquirer
 ## Usage
-Can be used to generate README files
+NO
 ## License 
-MIT
+      MIT(https://opensource.org/licenses/MIT)
 ## Contributors
 SanyamSamS
 ## Tests
-No tests required 
+No 
 ## Questions 
 If you have any questions get in touch:
 GitHub: [SanyamSamS](github.com/SanyamSamS)

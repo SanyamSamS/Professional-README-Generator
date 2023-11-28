@@ -46,7 +46,7 @@ ${data.description}
 ${data.installation}
 ## Usage
 ${data.usage}
-${renderLicenseSection(license.data)}
+${renderLicenseSection(data.license)}
 ## Contributors
 ${data.contributors}
 ## Tests
