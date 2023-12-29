@@ -11,7 +11,7 @@ A node.js application that streamlines README creation by prompting users for pr
 - [Questions](#questions)
 ## Installation 
 Node.js must be installed and the project must be ran wiht an npm installation of inquirer.
-## Usage
+## Usage 
 JavaScript, Node.js, Markdown, JSON.
 ## License 
   [MIT](https://opensource.org/licenses/MIT)
@@ -27,3 +27,5 @@ If you have any questions get in touch:
 sanyam.edu@gmail.com
 ## Walkthrough Video
 https://drive.google.com/file/d/1nK1_GUXsm5di-o0TSusvPuel3nzizK7w/view
+
+
